@@ -13,6 +13,7 @@ public class BikeController {
 
 	@GetMapping(value = "/getbikedetails")
 	public List<Bike> getBikeDetails() {
+		System.out.println();
 		return bikeservice.getBikeDetailService();
 	}
 
